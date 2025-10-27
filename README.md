@@ -1,3 +1,4 @@
+![App Preview](screenshot.png)
 # 🤖 AI Sentiment Analyzer
 
 A simple **AI-powered web app** that analyzes text sentiment (Positive, Negative, or Neutral) using **Python** and **Streamlit**.
