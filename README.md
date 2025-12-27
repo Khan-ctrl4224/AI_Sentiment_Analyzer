@@ -1,27 +1,26 @@
-![App Preview](screenshot.png)
-# 🤖 AI Sentiment Analyzer
+# AI Sentiment Analyzer
 
-A simple **AI-powered web app** that analyzes text sentiment (Positive, Negative, or Neutral) using **Python** and **Streamlit**.
+A simple Python-based web application that analyzes the sentiment of input text using Natural Language Processing techniques. Built with Streamlit for an interactive UI.
 
----
+## Features
+- Analyze sentiment of user-provided text
+- Classifies text as Positive, Negative, or Neutral
+- Simple and clean web interface
+- Fast and lightweight
 
-## 🧠 Features
-- Real-time sentiment detection (Positive 😄, Negative 😞, Neutral 😐)
-- Clean and simple web UI built with Streamlit
-- Quick setup using `requirements.txt`
-- Lightweight and fast — runs locally in seconds
+## Tech Stack
+- Python
+- Streamlit
+- NLP (Text preprocessing & sentiment scoring)
 
----
+## How It Works
+1. User enters text
+2. Text is cleaned and processed
+3. Sentiment score is calculated
+4. Result is displayed instantly
 
-## ⚙️ Technologies Used
-- **Python 3**
-- **Streamlit**
-- **TextBlob**
+## Getting Started
 
----
-
-## 🚀 How to Run
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/Khan-ctrl4224/AI_Sentiment_Analyzer.git
+```bash
+pip install -r requirements.txt
+streamlit run app.py
